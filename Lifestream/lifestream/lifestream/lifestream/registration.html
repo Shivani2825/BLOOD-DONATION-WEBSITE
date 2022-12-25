@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>LIFESTREAM</title>
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="icon" type="image/x-icon" href="./img/iconn.png">
+
+<link href="skins/default.css" rel="stylesheet" />
+
+
+</head>
+<body>
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><span style="color:#d90000">Life<i class="fa fa-heartbeat" style="font-size:30px;color:#d90000"></i></span>Stream</a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+						<li class=""><a href="index.html">Home</a></li>
+						<li class="active"><a href="#">Registration</a></li>
+						<li class=""><a href="request.html">Request</a></li>
+						<li class=""><a href="donor.html">Donor</a></li>
+						<li class=""><a href="patient.html">Patient</a></li>
+                        <li class=""><a href="contact.html">Contact</a></li>
+						
+                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+	<div class="container" id="Header" >
+		Registration
+
+	</div>
+	<section id="content">
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h4>Register Yourself as a <span>Donor</span></h4>
+				<form id="contactform" action="" method="post" class="validateform" name="send-contact">
+					<div id="sendmessage">
+						 Your message has been sent. Thank you!
+					</div>
+					<div class="row">
+						<div class="col-lg-4 margintop10 field">
+							Full Name *
+							<input type="text" name="name"  data-rule="maxlen:4" data-msg="Please enter at least 4 characters" />
+							<div class="validation">
+							</div>
+						</div>
+						<div class="col-lg-4 margintop10 field">
+							Email Address *
+							<input type="text" name="email"  data-rule="email" data-msg="Please enter a valid email" />
+							<div class="validation">
+							</div>
+						</div>
+						<div class="col-lg-4 margintop10 field">
+							Date of Birth *
+							<input type="text" name="subject"  data-rule="maxlen:4" data-msg="Please enter at least 4 characters" />
+							
+							<div class="validation">
+							</div>
+						</div>
+						<div class="col-lg-4 margintop10 field">
+							Age *
+							<input type="text" name="name"  data-rule="maxlen:4" data-msg="Please enter at least 4 characters" />
+							<div class="validation">
+							</div>
+						</div>
+						<div class="col-lg-4 margintop10 field">
+							Blood Group *
+							<input type="text" name="email"  data-rule="email" data-msg="Please enter a valid email" />
+							<div class="validation">
+							</div>
+						</div>
+						<div class="col-lg-4 margintop10 field">
+							Gender *
+							<br>
+							<div style="margin-top:10px">
+							<span style="padding:5px;" ><input type="radio" id="html" name="gender" value="Male"   style="padding:10px">Male</span>
+							<span style="padding:5px;"><input  style="margin-left:50px" type="radio"  name="gender" value="female" >Female</span>
+							</div>
+						 <!--<div class="validation">
+							</div>-->
+						</div>
+						
+						
+						<div class="col-lg-12 margintop10 field">
+							Address *
+							<textarea rows="2" name="message" class="input-block-level"  data-rule="required" data-msg="Please write something"></textarea>
+							<div class="validation">
+							</div>
+						
+						
+						</div>
+						<div class="col-lg-4 margintop10 field">
+							Zip Code *
+							<input type="number" name="email"  data-rule="email" data-msg="Please enter a valid email" />
+							<div class="validation">
+							</div>
+							
+						
+						</div>
+						<div class="col-lg-4 margintop10 field">
+							Id Proof *
+							<input type="file" class="form-control" id="customFile"/>
+							<div class="validation">
+							</div>
+							<p>
+								<button class="btn btn-theme margintop10 pull-left" type="submit">Register</button>
+								<span class="pull-right margintop20">* Please fill all required form field, thanks!</span>
+							</p>
+						</div>
+						
+						
+						
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row"><a class="navbar-brand" href="index.html"><span>Life<i class="fa fa-heartbeat" style="font-size:30px;color:#d90000"></i></span><span style="color:white">Stream</span></a>
+					</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="widget">
+						<h5 class="widgetheading">Get in touch with us</h5>
+						<address>
+							550 1st Ave, New York<br>NY 10016, USA
+						 </address>
+						<p>
+							<i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
+							<i class="icon-envelope-alt"></i> lifestream@mail.com
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="widget">
+						<h5 class="widgetheading">Visit</h5>
+						<ul class="link-list">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="registration.html">Registration</a></li>
+							<li><a href="request.html">Request</a></li>
+							<li><a href="donor.html">Donor Information</a></li>
+							<li><a href="patient.html">Patient Information</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>	
+		</div>
+	
+		</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/google-code-prettify/prettify.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/validate.js"></script>
+</body>
+</html>
